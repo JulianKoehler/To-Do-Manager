@@ -1,6 +1,6 @@
-@media (max-width: 414px) {
+@media (min-width: 800px) {
     .item-line-buttons {
-        flex-direction: column;
+        flex-direction: row !important;
         margin-left: 10px;
     }
 
