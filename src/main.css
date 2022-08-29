@@ -28,6 +28,7 @@ h1 {
 .edit-button,
 .delete-button,
 .update-button {
+    font-size: 16px;
     font-weight: 600;
     margin-right: 12px;
     margin-bottom: 10px;
