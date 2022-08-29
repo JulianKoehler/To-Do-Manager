@@ -67,6 +67,12 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 2px solid;
+    border-bottom-color: #c8ff7f
+}
+
+.item-line:last-child {
+    border-bottom: none;
 }
 
 .checkbox {
