@@ -128,7 +128,8 @@ h1 {
 }
 
 .input-textfield {
-    max-width: 450px;
+    width: 300px;
+    max-width: 300px;
 }
     
 
