@@ -9,10 +9,10 @@
     }
 
     .input-textfield {
-        max-width: 250px;
+        width: 400px;
     }
 
     #user-input {
-        max-width: 250px;
+        width: 450px;
     }
 }
