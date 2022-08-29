@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='de'>
+    <title>
+        To Do App
+    </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" type="text/css" media="screen" href="/src/resp.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='/src/main.css'>
+    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src='/src/main.js' defer></script>
+</head>
+<body>
+    <header>
+        <h1>To Do Manager</h1>
+        <input id="user-input" class="input-textfield" type="text" placeholder="What need's to be done?">
+        <label for="date-picker" class="todo-due-date-label">Due by</label>
+        <input id="date-picker" class="todo-due-date" type="date">
+        <button onclick="addItem()" id="add-button" class="add-button">
+            Add to List
+        </button>
+    </header>
+    <main>
+        <div id="todo-list"></div>
+    </main>
+    
+
+
+</body>
+</html>

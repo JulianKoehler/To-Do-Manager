@@ -1,0 +1,18 @@
+@media (max-width: 414px) {
+    .item-line-buttons {
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .text-field-editing {
+        flex-direction: column;
+    }
+
+    .input-textfield {
+        max-width: 200px;
+    }
+
+    #user-input {
+        max-width: 250px;
+    }
+}
