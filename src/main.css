@@ -1,0 +1,131 @@
+body {
+    font-family: Roboto, Arial;
+    color: aliceblue;
+    background-color: #303030;
+}
+
+header {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.add-button,
+.edit-button,
+.delete-button,
+.update-button {
+    font-weight: 600;
+    margin-left: 12px;
+    margin-bottom: 10px;
+    padding-left: 18px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 18px;
+    background-color: #c8ff7f;
+    border-style: none;
+    border-radius: 30px;
+    
+}
+
+.add-button:hover,
+.edit-button:hover,
+.delete-button:hover,
+.update-button:hover {
+    cursor: pointer;
+    background-color: rgb(199, 255, 125);
+    transition: opacity 0.25s;
+}
+
+.add-button:active,
+.edit-button:active,
+.delete-button:active,
+.update-button:active {
+    background-color: rgb(70, 250, 190);
+}
+
+/* fill in this one to create a tooltip showing that the user has to re-select the date */
+.update-button:hover { 
+
+}
+
+.item-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkbox {
+    size: 20px;
+    border-radius: 50%;
+}
+
+.text-field {
+    max-width: 70%;
+    line-height: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-line-buttons {
+    margin-right: 2vw;
+    display: flex;
+}
+
+.done,
+.item-line {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 2vw;
+}
+.todo-due-date,
+.input-textfield {
+    margin: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 20px;
+    border: rgb(95, 95, 95) solid;
+    color: aliceblue;
+    background-color: rgb(70, 70, 70);
+    border-radius: 12px;
+    border-width: 1px;
+}
+
+.input-textfield::placeholder {
+    color: aliceblue;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+.todo-due-date-label {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.input-textfield {
+    width: 350px;
+}
+    
+
+.todo-due-date {
+    margin: 10px;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+
+.done {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    background-color: rgba(124, 252, 92, 0.56);
+    color: rgb(66, 66, 66);
+}
+
+#date-picker {
+    margin-bottom: 20px;
+}
+
+
